@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 function ResumePage() {
     return (
@@ -10,86 +10,58 @@ function ResumePage() {
             }}
         >
             {/* Navbar */}
+            <Navbar />
+
+            {/* Neon Divider */}
             <div
                 style={{
-                    backgroundColor: "#111",
-                    padding: "20px 40px",
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
+                    height: "2px",
+                    background:
+                        "linear-gradient(to right, transparent, #00bfff, transparent)",
+                    boxShadow: "0 0 15px #00bfff",
                 }}
-            >
-                {/* Tabs */}
-                <div
-                    style={{
-                        display: "flex",
-                        gap: "15px",
-                    }}
-                >
-                    {/* Tab to projects page */}
-                    <Link to="/projects">
-                        <button className="nav-button">
-                            Projects
-                        </button>
-                    </Link>
-
-                    {/* Tab to Github */}
-                    <button className="nav-button">
-                        GitHub
-                    </button>
-
-                    {/* Tab link to linkedin */}
-                    <a
-                        href="https://www.linkedin.com/in/jeremy-goslant-94aa47197/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <button className="nav-button">
-                            LinkedIn
-                        </button>
-                    </a>
-
-                    {/* Tab to resume */}
-                    <Link to="/resume">
-                        <button className="nav-button">
-                            Resume
-                        </button>
-                    </Link>
-                </div>
-
-                {/* JSG Logo */}
-                <Link to="/">
-                    <button
-                        className="nav-button"
-                        style={{
-                            fontSize: "32px",
-                            fontWeight: "bold",
-                            padding: "10px 20px",
-                            boxShadow: "0 0 15px #00bfff",
-                        }}
-                    >
-                        JSG
-                    </button>
-                </Link>
-            </div>
+            />
 
             {/* Resume Content */}
             <div
                 style={{
-                    padding: "40px",
+                    padding: "60px",
                     textAlign: "center",
                 }}
             >
-                <h1>Resume</h1>
-
-                <iframe
-                    src="/resume.pdf"
-                    width="80%"
-                    height="900px"
+                <h1
                     style={{
+                        marginBottom: "50px",
+                        fontFamily: "Montserrat, sans-serif",
+                        fontWeight: "700",
+                        letterSpacing: "-2px"
+                    }}
+                >
+                    Resume
+                </h1>
+
+                <img
+                    src="/resumePic1.png"
+                    alt="Resume page 1"
+                    style={{
+                        width: "80%",
+                        maxWidth: "900px",
                         border: "2px solid #00bfff",
-                        borderRadius: "12px",
-                        boxShadow: "0 0 20px #00bfff",
+                        borderRadius: "18px",
+                        boxShadow: "0 0 25px rgba(0,191,255,0.5)",
+                        marginBottom: "50px",
+                    }}
+                />
+
+                <img
+                    src="/resumePic2.png"
+                    alt="Resume page 2"
+                    style={{
+                        width: "80%",
+                        maxWidth: "900px",
+                        border: "2px solid #00bfff",
+                        borderRadius: "18px",
+                        boxShadow: "0 0 25px rgba(0,191,255,0.5)",
                     }}
                 />
             </div>

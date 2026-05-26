@@ -64,6 +64,18 @@ p {
         box-shadow: 0 0 20px #00bfff;
     }
 
+.home-logo {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+    .home-logo:hover {
+        transform: scale(1.08);
+        filter: drop-shadow(0 0 10px #00bfff);
+    }
 /* Links */
 
 a {

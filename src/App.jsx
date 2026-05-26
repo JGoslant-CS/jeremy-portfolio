@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-
+import Navbar from "./components/Navbar";
 function App() {
     return (
         <div
@@ -15,72 +14,7 @@ function App() {
             }}
         >
             {/* Navbar */}
-            <div
-                style={{
-                    backgroundColor: "rgba(17,17,17,0.88)",
-                    backdropFilter: "blur(10px)",
-                    padding: "20px 40px",
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    position: "sticky",
-                    top: 0,
-                    zIndex: 1000,
-                }}
-            >
-                {/* Tabs */}
-                <div
-                    style={{
-                        display: "flex",
-                        gap: "15px",
-                    }}
-                >
-                    {/* Projects */}
-                    <Link to="/projects">
-                        <button className="nav-button">
-                            Projects
-                        </button>
-                    </Link>
-
-                    {/* GitHub */}
-                    <button className="nav-button">
-                        GitHub
-                    </button>
-
-                    {/* LinkedIn */}
-                    <a
-                        href="https://www.linkedin.com/in/jeremy-goslant-94aa47197/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <button className="nav-button">
-                            LinkedIn
-                        </button>
-                    </a>
-
-                    {/* Resume */}
-                    <Link to="/resume">
-                        <button className="nav-button">
-                            Resume
-                        </button>
-                    </Link>
-                </div>
-
-                {/* JSG Logo */}
-                <Link to="/">
-                    <button
-                        className="nav-button"
-                        style={{
-                            fontSize: "32px",
-                            fontWeight: "bold",
-                            padding: "10px 20px",
-                            boxShadow: "0 0 15px #00bfff",
-                        }}
-                    >
-                        JSG
-                    </button>
-                </Link>
-            </div>
+            <Navbar />
 
             {/* Neon Divider */}
             <div
@@ -125,6 +59,9 @@ function App() {
                             color: "#111",
                             textShadow:
                                 "0 0 12px rgba(0,191,255,0.25)",
+                            fontFamily: "Montserrat, sans-serif",
+                            fontWeight: "700",
+                            letterSpacing: "-2px",
                         }}
                     >
                         Jeremy Goslant

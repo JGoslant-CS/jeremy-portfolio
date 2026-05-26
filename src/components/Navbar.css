@@ -1,6 +1,5 @@
 .navbar {
-    background-color: rgba(17,17,17,0.88);
-    backdrop-filter: blur(10px);
+    background-color: #111;
     height: 80px;
     padding: 0 40px;
     display: flex;
@@ -17,11 +16,11 @@
     gap: 15px;
 }
 
-.nav-tabs a.active .nav-button {
-    background-color: #0077cc;
-    box-shadow: 0 0 15px rgba(0,191,255,0.6);
-    border: 1px solid #00bfff;
-}
+    .nav-tabs a.active .nav-button {
+        background-color: #0077cc;
+        box-shadow: 0 0 15px rgba(0,191,255,0.6);
+        border: 1px solid #00bfff;
+    }
 
 .home-logo {
     width: 70px;

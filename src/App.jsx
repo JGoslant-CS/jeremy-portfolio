@@ -3,8 +3,7 @@ function App() {
     return (
         <div
             style={{
-                backgroundImage:
-                    "linear-gradient(rgba(255,255,255,0.72), rgba(255,255,255,0.82)), url('/jwebback.png')",
+                backgroundImage: "url('/jwebback.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundAttachment: "fixed",
@@ -44,7 +43,6 @@ function App() {
                         padding: "70px",
                         borderRadius: "28px",
                         background: "rgba(255,255,255,0.72)",
-                        backdropFilter: "blur(14px)",
                         border:
                             "1px solid rgba(0,191,255,0.35)",
                         boxShadow:
@@ -70,7 +68,7 @@ function App() {
                     <p
                         style={{
                             fontSize: "28px",
-                            color: "#333",
+                            color: "#222",
                             marginTop: "0",
                             textShadow:
                                 "0 0 10px rgba(0,191,255,0.3)",
@@ -82,7 +80,7 @@ function App() {
                     <p
                         style={{
                             fontSize: "20px",
-                            color: "#555",
+                            color: "#111",
                             maxWidth: "900px",
                             margin: "40px auto 0 auto",
                             lineHeight: "1.9",

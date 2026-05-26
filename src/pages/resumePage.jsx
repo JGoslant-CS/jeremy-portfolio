@@ -4,7 +4,10 @@ function ResumePage() {
     return (
         <div
             style={{
-                backgroundColor: "white",
+                backgroundImage: "url('/jwebback.png')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundAttachment: "scroll",
                 minHeight: "100vh",
                 fontFamily: "Arial",
             }}
@@ -34,7 +37,9 @@ function ResumePage() {
                         marginBottom: "50px",
                         fontFamily: "Montserrat, sans-serif",
                         fontWeight: "700",
-                        letterSpacing: "-2px"
+                        letterSpacing: "-2px",
+                        color: "#00bfff",
+                        textShadow: "0 0 12px rgba(0,191,255,0.7)",
                     }}
                 >
                     Resume

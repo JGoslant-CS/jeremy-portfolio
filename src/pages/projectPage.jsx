@@ -5,8 +5,10 @@ function Projects() {
     return (
         <div
             style={{
-                background:
-                    "linear-gradient(to bottom, #ffffff, #eef9ff)",
+                backgroundImage: "url('/jwebback.png')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundAttachment: "scroll",
                 minHeight: "100vh",
                 margin: 0,
                 fontFamily: "Arial",
@@ -40,6 +42,8 @@ function Projects() {
                         fontFamily: "Montserrat, sans-serif",
                         fontWeight: "700",
                         letterSpacing: "-2px",
+                        color: "#00bfff",
+                        textShadow: "0 0 12px rgba(0,191,255,0.7)",
                     }}
                 >
                     Projects

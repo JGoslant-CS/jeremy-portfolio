@@ -42,11 +42,12 @@ function App() {
                         maxWidth: "1000px",
                         padding: "70px",
                         borderRadius: "28px",
-                        background: "rgba(255,255,255,0.72)",
-                        border:
-                            "1px solid rgba(0,191,255,0.35)",
+                        background: "rgba(7,26,47,0.72)",
+                        color: "white",
+                        border: "2px solid #00bfff",
                         boxShadow:
-                            "0 0 35px rgba(0,191,255,0.35)",
+                            "0 0 35px rgba(0,191,255,0.45)",
+                        backdropFilter: "blur(6px)",
                     }}
                 >
                     <h1
@@ -54,7 +55,7 @@ function App() {
                             fontSize: "76px",
                             marginBottom: "20px",
                             lineHeight: "1.2",
-                            color: "#111",
+                            color: "white",
                             textShadow:
                                 "0 0 12px rgba(0,191,255,0.25)",
                             fontFamily: "Montserrat, sans-serif",
@@ -68,19 +69,19 @@ function App() {
                     <p
                         style={{
                             fontSize: "28px",
-                            color: "#222",
+                            color: "#d5eaff",
                             marginTop: "0",
                             textShadow:
                                 "0 0 10px rgba(0,191,255,0.3)",
                         }}
                     >
-                        --Computer Science Major--
+                        -- Computer Science Major --
                     </p>
 
                     <p
                         style={{
                             fontSize: "20px",
-                            color: "#111",
+                            color: "#d5eaff",
                             maxWidth: "900px",
                             margin: "40px auto 0 auto",
                             lineHeight: "1.9",

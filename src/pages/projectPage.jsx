@@ -155,9 +155,63 @@ function Projects() {
                                     marginTop: "30px",
                                 }}
                             >
-                                View Portfolio
+                                Home Page 
                             </button>
                         </Link>
+                    </div>
+
+                    {/* Contact Manager Card */}
+                    <div
+                        style={{
+                            width: "360px",
+                            backgroundColor: "#071a2f",
+                            color: "white",
+                            padding: "35px",
+                            borderRadius: "22px",
+                            border: "2px solid #00bfff",
+                            boxShadow:
+                                "0 0 25px rgba(0,191,255,0.45)",
+                            transition: "0.3s",
+                        }}
+                    >
+                        <h2
+                            style={{
+                                marginBottom: "20px",
+                                color: "#00bfff",
+                                textShadow: "0 0 12px rgba(0,191,255,0.7)",
+                            }}
+                        >
+                            Contact Manager
+                        </h2>
+
+                        <p
+                            style={{
+                                fontSize: "15px",
+                                lineHeight: "1.8",
+                                color: "#d5eaff",
+                            }}
+                        >
+                            A secure contact management application that allows
+                            users to safely store, edit, and organize personal
+                            contacts through a clean modern interface. This
+                            project focused on frontend design, database
+                            integration, and user authentication.
+                        </p>
+
+                        <a
+                            href="http://67.205.174.196/index.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button
+                                className="nav-button"
+                                style={{
+                                    marginTop: "30px",
+                                }}
+                            >
+                                Go To Contact Manager
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
